@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Averia+Sans+Libre&family=IBM+Plex+Sans+Condensed&family=Open+Sans:ital,wght@0,500;1,300&family=Quantico&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+@keyframes slidein {
+  0% { 
+    opacity: 1;
+    bottom: 1%
+  }
+}
+
+@keyframes slideout {
+  100% { 
+    opacity: 1; 
+    bottom: 1%
+  }
+}
+
+body{
+  /* text-shadow: 2px 1px 13px rgba(0,0,0,1);   */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  font-family: verdana;
+  overflow-x: hidden;
+}
+
+#container {
+  position: absolute;
+  top: 94%;
+  left: 50%;
+}
+
+.icon {
+  position: absolute;
+  top: 0.4vh;
+  left: -6vh;
+  height: 3.6vh;
+  width: 4vh;
+  border-radius: 20px;
+}
+  
+
+.icon-text {
+  position: absolute;
+  top: 1.50vh;
+  left: 70%;
+  height: 3.8vh;
+  transform: translate(-50%, -50%);
+  color: #37aae5;
+  text-shadow: 0px 0px 5px #37aae5;
+  background-color: #000000b9;
+  margin-top: 0.2rem;
+  padding: 0.79rem;
+  padding-bottom: 0.81rem;
+  box-shadow: 0px 0px 10px black;
+  font-size: 17px;
+}
+.line1 {
+  position: absolute;
+  top: 1.5vh;
+  left: -1.60vh;
+  height: 1.8vh;
+  width: 0.3vh;
+  background-color: #37aae5;
+  box-shadow: 0px 0px 5px #37aae5;
+}
+
+.text {
+  position: absolute;
+  width: 130px;
+  top: .03vh;
+  left: -1.53vh;
+  min-width: 30%;
+  color: #d6d6d6f1;
+  background: #000000b9;
+  margin-top: 0.2rem;
+  padding: 0.70rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px black;
+  white-space: nowrap;
+  height: 3.8vh;
+}
+
+.container{
+  animation: slidein 0.5s forwards;
+  -webkit-animation: slidein 0.5s forwards;
+}
+
+.slide-out{
+  animation: slideout 0.5s forwards;
+  -webkit-animation: slideout 0.5ss forwards;
+}
